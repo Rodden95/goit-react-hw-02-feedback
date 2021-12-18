@@ -1,0 +1,17 @@
+.list .btn {
+  background-color: rgba(127, 255, 212, 0.349);
+
+  margin-left: 45px;
+  border: none;
+  border-radius: 50%;
+  /* margin-left: auto; */
+}
+.list .item {
+  padding: 10px 0px 10px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
