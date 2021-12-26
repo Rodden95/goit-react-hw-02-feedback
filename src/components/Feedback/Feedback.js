@@ -4,7 +4,7 @@ import FeedbackOptions from '../FeedbackOptions'
 import Section from '../Section'
 import Notification from '../Notification'
 import PropTypes from 'prop-types';
-import { Component } from 'react/cjs/react.development';
+import { Component } from 'react';
 export default class Feedback extends Component {
 
 

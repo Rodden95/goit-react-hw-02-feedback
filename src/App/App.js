@@ -1,4 +1,4 @@
-import { Component } from "react/cjs/react.production.min";
+import { Component } from 'react';
 // import shortid from "shortid";
 import Feedback from "../components/Feedback";
 class App extends Component {
