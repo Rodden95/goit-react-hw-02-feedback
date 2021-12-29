@@ -1,14 +1,13 @@
 import PropTypes from 'prop-types'
 function Section({ title }) {
   return (
-   <div>
+    <div>
       <h2>{title}</h2>
-      
-   </div>
-  )
-}
+    </div>
+  );
+};
 
 PropTypes.Section = {
   title: PropTypes.string.isRequired,
-}
-export default Section
+};
+export default Section;
