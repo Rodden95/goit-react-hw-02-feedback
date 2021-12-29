@@ -7,9 +7,8 @@ import PropTypes from 'prop-types';
 import { Component } from 'react';
 export default class Feedback extends Component {
 
-
-  onClickFeedbackChange = (e) => {
-    this.props.onClickFeedbackChange(e.target.name);
+  onClickFeedbackChange = name => {
+    this.props.onClickFeedbackChange(name);
   };
   render(){
     const { good, neutral, bad, total, positivePercentage } = this.props;
@@ -21,19 +20,19 @@ export default class Feedback extends Component {
           option={this.props.stateValues}
         />
 
-        <Section title='Statistics'/>
+        <Section title='Statistics' />
 
         {
           total === 0
             ?
-            <Notification messege='There is no feedback'/>
+            <Notification messege='There is no feedback' />
             :
             <Statistics
               good={good}
               neutral={neutral}
               bad={bad}
               total={total}
-                positivePercentage={positivePercentage}
+              positivePercentage={positivePercentage}
             />
         };
          

@@ -9,7 +9,7 @@ class App extends Component {
 
   };   
 
-  onClickFeedbackChange = (name) =>
+  onClickFeedbackChange = name =>
     this.setState(prevState =>
       ({ [name]: prevState[name] + 1 }));
             
